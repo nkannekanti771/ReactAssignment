@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+.data-grid {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.data-grid th,
+.data-grid td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.editable-cell,
+.edit-button {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.editable-cell:hover,
+.edit-button:hover {
+  background-color: #f0f0f0;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page,
+.active-page {
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page:hover {
+  background-color: #f0f0f0;
+}
+
+.active-page {
+  background-color: #4caf50;
+  color: white;
+}
